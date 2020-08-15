@@ -1,17 +1,7 @@
 #-c requirements.txt
-bandit # designed to find common security issues in Python code.
-black # Black is the uncompromising Python code formatter 
 grequests # admin 
 itermplot #backend for Matplotlib
 matplotlib
-mypy #static type checker for Python
-pycodestyle
-pydocstyle
-pylint
-pytest
-pyyaml
-safety
-scipy
 pillow
 pandas
 fastai2
