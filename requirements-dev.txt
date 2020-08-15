@@ -43,16 +43,17 @@ jupyter-client==6.1.6     # via ipykernel, notebook
 jupyter-core==4.6.3       # via jupyter-client, nbconvert, nbformat, notebook
 kiwisolver==1.2.0         # via matplotlib
 markupsafe==1.1.1         # via jinja2
-matplotlib==3.3.0         # via -r requirements-dev.in, fastai2, itermplot
+matplotlib==3.3.0         # via -r requirements-dev.in, fastai2, itermplot, seaborn
 mistune==0.8.4            # via nbconvert
 murmurhash==1.0.2         # via preshed, spacy, thinc
 nbconvert==5.6.1          # via nbdev, notebook
 nbdev==0.2.38             # via -r requirements-dev.in
 nbformat==5.0.7           # via ipywidgets, nbconvert, nbdev, notebook
 notebook==6.1.3           # via widgetsnbextension
-numpy==1.19.1             # via blis, fastcore, itermplot, matplotlib, pandas, scikit-learn, scipy, spacy, thinc, torch, torchvision
+numpy==1.19.1             # via blis, fastcore, itermplot, matplotlib, opencv-python, pandas, scikit-learn, scipy, seaborn, spacy, thinc, torch, torchvision
+opencv-python==4.4.0.40   # via -r requirements-dev.in
 packaging==20.4           # via bleach, fastai2, fastcore, fastscript, nbdev
-pandas==1.1.0             # via -r requirements-dev.in, fastai2
+pandas==1.1.0             # via -r requirements-dev.in, fastai2, seaborn
 pandocfilters==1.4.2      # via nbconvert
 parso==0.7.1              # via jedi
 pexpect==4.8.0            # via ipython
@@ -73,7 +74,8 @@ pyyaml==5.3.1             # via fastai2, nbdev
 pyzmq==19.0.2             # via jupyter-client, notebook
 requests==2.24.0          # via fastai2, grequests, spacy
 scikit-learn==0.23.2      # via -r requirements-dev.in, fastai2
-scipy==1.5.2              # via fastai2, scikit-learn
+scipy==1.5.2              # via fastai2, scikit-learn, seaborn
+seaborn==0.10.1           # via -r requirements-dev.in
 send2trash==1.5.0         # via notebook
 six==1.15.0               # via argon2-cffi, bleach, cycler, itermplot, jsonschema, packaging, pyrsistent, python-dateutil, traitlets
 spacy==2.3.2              # via fastai2

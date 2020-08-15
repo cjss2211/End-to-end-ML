@@ -9,3 +9,5 @@ graphviz
 ipywidgets
 nbdev
 scikit_learn
+opencv-python
+seaborn
