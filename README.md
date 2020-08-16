@@ -1,11 +1,11 @@
 # Traffic Sign Detection
 
-Bem vindos! Os objetivos deste projeto sao:
+Bem vindos! Os objetivos deste projeto são:
 
-- Treinar modelos de reconhecimento de sinais de transito
+- Treinar modelos de reconhecimento de sinais de trânsito
 - Criar um dataset para testar os modelos treinados
-- Definir metricas de desempenho 
-- Avaliar os modelos
+- Definir métricas de desempenho 
+- Avaliar os modelos de treinamento
 
 # Setup
 
